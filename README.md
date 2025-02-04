@@ -29,8 +29,10 @@ A simple JavaScript-based To-Do List application that allows users to add, delet
    git clone https://github.com/DevRohan33/To-Do-List.git
    ```
 ## Project Structure
+```sh
 To-Do-List/
 │── index.html       # Main HTML file
 │── style.css        # Stylesheet
 │── app.js           # JavaScript logic
 │── README.md        # Project documentation
+```
