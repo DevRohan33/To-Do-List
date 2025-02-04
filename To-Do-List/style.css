@@ -1,0 +1,106 @@
+/* Basic Reset */ 
+• { 
+    Margin: 0; 
+    Padding: 0; 
+    Box-sizing: border-box; 
+   } 
+   Body { 
+    Font-family: Arial, sans-serif; 
+    Background-color: #f5f5f5; 
+    Padding: 20px; 
+   } 
+   .container { 
+    Max-width: 800px; 
+    Margin: 0 auto; 
+    Background-color: #fff; 
+    Border-radius: 8px; 
+    Padding: 20px; 
+    Box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); } 
+   .header { 
+    Margin-bottom: 20px; 
+   }
+   H1 { 
+    Color: #333; 
+    Text-align: center;  Margin-bottom: 20px; } 
+   #taskCount { 
+    Color: #666; 
+    Font-size: 0.8em;  Margin-left: 5px; 
+   } 
+   .input-section { 
+    Display: flex; 
+    Gap: 10px; 
+    Margin-bottom: 20px; } 
+   #taskInput { 
+    Flex: 1; 
+    Padding: 10px; 
+    Border: 1px solid #ddd;  Border-radius: 4px;  Font-size: 16px; 
+   }
+   #taskInput:focus { 
+    Outline: none; 
+    Border-color: #007bff; } 
+   #addBtn { 
+    Padding: 10px 20px; 
+    Border: none; 
+    Border-radius: 4px; 
+    Background-color: #007bff;  Color: white; 
+    Cursor: pointer; 
+   } 
+   #addBtn:hover { 
+    Background-color: #0056b3; } 
+   .filters { 
+    Display: flex; 
+    Justify-content: center;  Gap: 10px; 
+    Margin-bottom: 20px; } 
+   .filter-btn {
+    Padding: 5px 15px; 
+    Border: 1px solid #ddd;  Border-radius: 4px; 
+    Background-color: #f9f9f9;  Cursor: pointer; 
+   } 
+   .filter-btn.active { 
+    Background-color: #007bff;  Color: white; 
+    Border-color: #007bff; } 
+   #taskList { 
+    List-style: none; 
+    Margin-bottom: 20px; } 
+   .task-item { 
+    Display: flex; 
+    Align-items: center; 
+    Padding: 10px; 
+    Margin-bottom: 10px;  Background-color: #f9f9f9;  Border-radius: 4px; 
+    Border: 1px solid #eee;
+   } 
+   .task-item.completed { 
+    Background-color: #e9ecef; } 
+   .task-item.completed .task-text {  Text-decoration: line-through;  Color: #666; 
+   } 
+   .task-text { 
+    Flex: 1; 
+    Margin: 0 10px; 
+   } 
+   .checkbox { 
+    Margin-right: 10px; 
+    Cursor: pointer; 
+   } 
+   .delete-btn { 
+    Background: none; 
+    Border: none; 
+    Color: #dc3545; 
+    Cursor: pointer;
+    Font-size: 16px; 
+   } 
+   .delete-btn:hover { 
+    Color: #a71d2a; 
+   } 
+   .footer { 
+    Text-align: center; 
+   } 
+   #clearAll { 
+    Padding: 8px 20px; 
+    Border: none; 
+    Border-radius: 4px; 
+    Background-color: #dc3545;  Color: white; 
+    Cursor: pointer; 
+   } 
+   #clearAll:hover { 
+    Background-color: #a71d2a; }
+   
