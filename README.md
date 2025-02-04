@@ -2,6 +2,9 @@
 
 A simple JavaScript-based To-Do List application that allows users to add, delete, filter, and manage their tasks efficiently.
 
+## 🚀 Live Demo  
+🔗 [To-Do List App](https://kaleidoscopic-figolla-726d1f.netlify.app/)
+
 ## Features
 - ✅ Add new tasks
 - ✅ Mark tasks as completed
